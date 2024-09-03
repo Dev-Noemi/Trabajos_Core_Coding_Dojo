@@ -1,0 +1,308 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.descripcion {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+
+.tarjeta {
+    margin: 20px;
+}
+
+.educacion {
+    margin: 20px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+
+.navbar {
+    background-color: rgb(61, 66, 70);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+.logo a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: aliceblue;
+}
+
+.nav-links li a:hover {
+    color: aqua;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.celeste {
+    background-color: lightblue;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mainImg {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    border-color: lightgoldenrodyellow;
+    border-style: solid;
+    border-width: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    padding-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+em {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 12%;
+    position: relative;
+    border-color: rgb(85, 183, 215);
+    border-style: solid;
+    border-width: 4px;
+}
+
+.img2 {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: relative;
+    border-color: brown;
+    border-style: solid;
+    border-width: 4px;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 15px;
+}
+ul{
+    margin-left: -35px;
+}
+
+.solicitudes {
+    margin: 20px;
+    background-color: lightgoldenrodyellow;
+    padding: 10%;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+
+.usuario{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+
+.conexiones {
+    margin: 20px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 15px;
+}
+
+.derecha{
+    width: 40%;
+}
+
+.izquierda{
+    width: 60%;
+}
+
+
+
+/*body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(61, 66, 70);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+.logo a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: aliceblue;
+}
+
+.nav-links li a:hover {
+    color: aqua;
+}
+
+.container {
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    box-shadow: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+}
+
+.celeste {
+    background-color: lightblue;
+    width: 100%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.mainimg {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    position: absolute;
+    top: 140px;
+    left: 40px;
+    border-color: lightgoldenrodyellow;
+    border-style: solid;
+    border-width: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+    padding-top: 60px;
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    padding-left: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+em {
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+button {
+    margin-left: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
